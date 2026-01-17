@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>Jessica's Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+
+        <header class="header">
+        <a href="#home" class="logo">Jessica <span>Wadhwa</span></a>
+
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#services">Services</a>
+            <a href="#testimonials">Projects</a>
+            <a href="#contact">Contact</a>
+        
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Jessica</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/jessica-wadhwa-36888a308" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/jessica27272" target="_blank"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/_whitebillu?igsh=M2VneW9sbjhucDI1" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            </div>
+        
+            <div class="btn-group">
+                <a href="mailto:jessicawadhwa123@gmail.com" target="_blank" class="btn">Hire</a>
+                <a href="https://wa.me/916395579323" class="btn">Contact</a>
+            </div>
+        </div>
+
+            <div class="home-img">
+                <img src="images/FullSizeRender.jpeg" alt="">
+            </div>
+        
+    </section>
+
+
+
+    <section class="education" id="education">
+        <h2 class="heading">Education</h2>
+
+            <div class="timeline-items">
+
+                <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023</div>
+                
+                <div class="timeline-content">
+                    <h3>High School</h3>
+                    <p>The Adhyyan School, Meerut — High School (CBSE), Graduated with distinction; engaged in academic and creative initiatives fostering analytical and interpersonal growth.</p>
+                </div>
+            
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                
+                <div class="timeline-content">
+                    <h3>University</h3>
+                    <p>Mody University of Science and Technology, Laxmangarh
+Bachelor of Technology (B.Tech), 2024–2028
+Pursuing undergraduate studies with a focus on developing strong technical, analytical, and problem-solving skills through coursework, projects, and research initiatives.</p>
+                </div>
+         
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2027</div>
+                
+                <div class="timeline-content">
+                    <h3>Intership</h3>
+                    <p>yea</p>
+                </div>
+            
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2028</div>
+                
+                <div class="timeline-content">
+                    <h3>Job 1</h3>
+                    <p>yea</p>
+                </div>
+            
+            </div>
+        </div>
+        </section>
+
+        <section class="services" id="services">
+            <h2 class="heading">Services</h2>
+
+            <div class="services-container">
+                <div class="service-box">
+                    <div class="service-info">
+                        <h4>WEB DEVELOPMENT</h4>
+                        <p>Building responsive, user-friendly websites using HTML, CSS, JavaScript, and modern frameworks.</p>
+                    </div>
+                </div>
+            
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>PYTHON DEVELOPMENT</h4>
+                    <p>Writing clean, efficient Python code for automation, problem-solving, and data applications.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>ARTIFICIAL INTELLIGENCE SOLUTIONS</h4>
+                    <p>Developing intelligent models that analyze data, recognize patterns, and make predictions using machine learning and deep learning techniques. Focused on creating smart, efficient, and data-driven applications.</p>
+                </div>
+            </div>
+
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>DATABASE MANAGEMENT</h4>
+                    <p>Designing and maintaining structured databases with SQL for optimized data handling.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="testimonials" id="testimonials">
+            <div class="testimonials-box">
+                <h2 class="heading">My <span>Projects</span></h2>
+
+                <div class="wrapper">
+                    <div class="testimonials-item" onclick="toggleProject(this)">
+                        <img src="project1.jpg" alt="Chat Bot">
+                        <h2>Voice-Assisted Chat Bot</h2>
+                        <div class="project-desc">
+                        <p> A smart and interactive chatbot integrated with voice assistance that responds to user commands through speech recognition and text-to-speech conversion. 
+                            It uses natural language understanding to make conversations more human-like and can perform real-time actions or answer queries seamlessly.</p>
+                        <a href="https://jessica27272.github.io/voice-assistant-bot/" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    
+                     <div class="testimonials-item" onclick="toggleProject(this)">
+                        <img src="project2.jpg" alt="Online Exam System">
+                        <h2>Image-Generator Engine</h2>
+                        <div class="project-desc">
+                        <p>A dynamic image generation platform that fetches high-quality visuals from APIs like Unsplash and Pexels based on user search prompts. 
+                            Users can enter any keyword — from “sunset beach” to “futuristic city” — and instantly explore a curated gallery of matching images.</p>
+                        <a href="https://jessica27272.github.io/Image-Generator-Engine/" target="_blank" class="btn">View Project</a>
+                         </div>
+                    </div>
+
+                    
+
+                    <div class="testimonials-item" onclick="toggleProject(this)">
+                        <img src="project3.jpg" alt="Portfolio Website">
+                        <h2>Grocery Store Management System</h2>
+                        <div class="project-desc">
+                        <p>A complete store management system built using Python and Tkinter GUI.</p>
+                        <a href="https://github.com/jessica27272/Grocery-Store-System" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+
+                    <div class="testimonials-item" onclick="toggleProject(this)">
+                        <img src="project4.jpg" alt="Portfolio Website">
+                        <h2>MCQ Generator using Langchain</h2>
+                        <div class="project-desc">
+                        <p>An AI-based MCQ generator built using LangChain, Groq LLM, and Streamlit.
+The application generates multiple-choice questions from uploaded PDF or TXT documents.
+
+</p>
+                        <a href="https://github.com/jessica27272/mcqgen" target="_blank" class="btn">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact<span>Me</span></h2>
+
+        <form action="https://formspree.io/f/xjkjkjgy" method="POST">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" name="Full Name" placeholder="Full Name">
+                    <input type="email" name="Email" placeholder="Email">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" name="Phone Number" placeholder="Phone Number">
+                    <input type="text" name="Subject" placeholder="Subject">
+                </div>
+            </div>
+
+
+            <div class="input-group-2">
+                <textarea name="Message"  cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+
+        </form>
+
+        </section>
+
+        <footer class="footer">
+            <div class="social">
+                <a href="https://www.linkedin.com/in/jessica-wadhwa-36888a308"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/jessica27272"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.instagram.com/_whitebillu?igsh=M2VneW9sbjhucDI1"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+            </div>
+
+            <ul class="list">
+                <li>
+                    <a href="#home">FAQ</a>
+                </li>
+
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+                <li>
+                    <a href="#testimonials">Projects</a>
+                </li>
+            </ul>
+
+            <p class="copyright">
+              @ Jessica Wadhwa | All Rights Reserved  
+            </p>
+        </footer>
+        
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
